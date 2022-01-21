@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bmi.css" />
+    <title>BMI Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- 
+4003152 -->
+  </head>
+  <body id="body">
+    <header id="header">
+      <div id="divheading">
+        <h1 id="heading">BMI Calculator</h1>
+      </div>
+    </header>
+    <div id="divOne">
+        <div id="userInput">
+            <h3>Height(cm):<input id="height" placeholder="cm" type="number" /></h4>
+            <h3>Weight(kg):<input  id = "weight"placeholder="kg" type="number" /></h4>
+              <button id="calculate">Calculate</button>
+              <button id="reset">Reset</button>
+          </div>
+          
+          <div id="Result"> 
+             <h3>BMI:<output id="outBmi" style="background-color: white;">......</output></h3>
+             <h3>BMI Category:<output id="outCategory" style="background-color: white;">......</output> </h3>
+             <h3>Health Risk:<output id="outRisk" style="background-color: white;">......</output></h3>
+             <h3 id="errorIn"></h3>
+          </div>
+      
+    </div>
+    
+  </body>
+  <script src="bmi.js"></script>
+</html>

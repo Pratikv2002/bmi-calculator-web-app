@@ -1,0 +1,78 @@
+#body{
+    background-color:blue;
+}
+#divheading{
+    padding: 1em;
+    text-align: center;
+    background-color: rgb(19, 141, 19);
+    box-shadow: 1em 1em 1em 2px;
+    border-radius: 5px;
+}
+#heading{
+   font-size: 2em;
+   font-family:'Libre Baskerville', serif;
+}
+#divOne{
+padding:1em ;
+justify-content: center;
+ text-align: center;
+ display: flex;
+ flex-wrap: wrap;
+ 
+}
+
+#userInput{
+    padding: 10px;
+    background-color: darksalmon;
+   text-align: center;
+   margin: 1em;
+   box-shadow: 1em 1em 1em 2px;
+   border-radius: 5px;
+  
+}
+#calculate{
+    
+    margin: 10px;
+    background-color: rgb(81, 224, 81);
+    padding: 10px;
+    border: green;
+    border-radius:5px ;
+}
+#calculate:hover{
+    background-color: green;
+    border-width: 10px;
+}
+#reset {
+    
+    margin: 10px;
+    background-color:orangered;
+    padding: 10px;
+    border:orange;
+    border-radius:5px ;
+    border-width: 5px;
+}
+#reset:hover{
+    background-color: rgb(145, 50, 15);
+    border-width: 10px;
+}
+input::placeholder {
+    text-align: right;
+}
+#Result{
+   text-align: start;
+    padding: 10px;
+    background-color: darksalmon;
+    margin: 1em;
+    width: 400px;
+    box-shadow: 1em 1em 1em 2px;
+    border-radius: 5px;
+}
+#Result h3 output{
+    background-color: white;
+    padding: 4px;
+    margin: 4px;
+}
+#errorIn{
+    color: rgb(255, 0, 0);
+    
+}
